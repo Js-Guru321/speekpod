@@ -1,0 +1,43 @@
+.banner {
+	height: 100vh;
+	min-height: 500px;
+	background-image: url('../assets/images/back.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.logo{
+	top: 6%;
+	left: 3%;
+}
+
+
+.btn-color{
+	background-color: rgb(69, 43, 134);
+	border-color: rgb(69, 43, 134);
+	color: white;
+}
+
+.separator{
+	height: 1px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #616771;
+	opacity: 0.3;
+	width: 50px;
+}
+.signup-form{
+	background-image: url("../assets/images/timefire_ultimo.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.ipt{
+	background-color: rgba(255,255,255,0.3);
+	border: 1px solid white;
+	color: white;
+}
+.ipt::placeholder{
+	color: white;
+}

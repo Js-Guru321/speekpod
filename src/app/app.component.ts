@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import AOS from 'aos';
+import { TranslateService } from '@ngx-translate/core';
+
+AOS.init();
 
 @Component({
   selector: 'app-root',
@@ -7,4 +11,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'speekpod';
+  
+  constructor(private translateService: TranslateService){
+    this.translateService.setDefaultLang('en');
+    // this.translateService.use(this.translateService.getBrowserLang());
+  }
+
+  setLang(lang: string){
+    this.translateService.use(lang);
+  }
 }
