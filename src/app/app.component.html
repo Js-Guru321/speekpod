@@ -4,8 +4,8 @@
     <div class="row h-100 align-items-center">
       <div class="col-12 text-center">
         <h1 class="font-weight-bold text-white mb-md-4">{{ 'h1' | translate }}</h1>
-        <h4 class="text-white mb-md-5">{{ 'c1' | translate }}</h4>
-        <button type="button" class="btn btn-lg rounded-pill btn-color px-md-5 text-uppercase">{{ 'b1' | translate }}</button>
+        <div class="text-white mb-md-5 subtitle my-5">{{ 'c1' | translate }}</div>
+        <button type="button" class="btn btn-lg rounded-pill btn-color px-md-5 my-5 text-uppercase">{{ 'b1' | translate }}</button>
       </div>
     </div>
   </div>
@@ -17,56 +17,56 @@
   <div class="container">
     <h2 class="text-center font-weight-normal text-dark">{{ 'h2' | translate }}</h2>
     <div class="separator small mx-auto"></div>
-    <h5 class="text-center text-secondary mb-5">{{ "c2" | translate }}<br>{{ "c3" | translate }}</h5>
+    <h4 class="text-center text-secondary mb-5" [style.fontWeight]="'300'">{{ "c2" | translate }}<br>{{ "c3" | translate }}</h4>
     <div class="row mb-4">
       <div class="col-12 col-sm-12 col-md-4 text-center">
         <img src="../assets/images/ecommerce_money.svg" data-aos="zoom-in" class="mb-3">
         <h5 class="font-weight-normal text-center text-dark">{{ "h3" | translate }}</h5>
-        <h6 class="text-secondary text-center">{{ "c4" | translate }}</h6>
+        <p class="text-secondary text-center">{{ "c4" | translate }}</p>
       </div>
       <div class="col-12 col-sm-12 col-md-4 text-center">
           <img src="../assets/images/basic_share.svg" data-aos="zoom-in"  class="mb-3">
         <h5 class="font-weight-normal text-center text-dark">{{ "h4" | translate  }}</h5>
-        <h6 class="text-secondary  text-center">{{ "c5" | translate }}</h6>
+        <p class="text-secondary  text-center">{{ "c5" | translate }}</p>
       </div>
       <div class="col-12 col-sm-12 col-md-4 text-center">
         <img src="../assets/images/ecommerce_ticket.svg" data-aos="zoom-in"  class="mb-3">
         <h5 class="font-weight-normal text-center text-dark">{{ "h5" | translate  }}</h5>
-        <h6 class="text-secondary text-center">{{ "c6" | translate  }}</h6>
+        <p class="text-secondary text-center">{{ "c6" | translate  }}</p>
       </div>
     </div>
     <div class="row mb-4">
       <div class="col-12 col-sm-12 col-md-4 text-center">
         <img src="../assets/images/basic_message_multiple.svg" data-aos="zoom-in"  class="mb-3">
         <h5 class="font-weight-normal text-center text-dark">{{ "h6" | translate }}</h5>
-        <h6 class="text-secondary text-center">{{"c7" | translate }}</h6>
+        <p class="text-secondary text-center">{{"c7" | translate }}</p>
       </div>
       <div class="col-12 col-sm-12 col-md-4 text-center">
-          <img src="../assets/images/basic_target.svg" data-aos="zoom-in"  class="mb-3">
+        <img src="../assets/images/basic_target.svg" data-aos="zoom-in"  class="mb-3">
         <h5 class="font-weight-normal text-center text-dark">{{ "h7" | translate }}</h5>
-        <h6 class="text-secondary  text-center">{{ "c8" | translate }}</h6>
+        <p class="text-secondary  text-center">{{ "c8" | translate }}</p>
       </div>
       <div class="col-12 col-sm-12 col-md-4 text-center">
         <img src="../assets/images/ecommerce_megaphone.svg" data-aos="zoom-in" class="mb-3">
         <h5 class="font-weight-normal text-center text-dark">{{ "h8" | translate }}</h5>
-        <h6 class="text-secondary text-center">{{ "c9" | translate }}</h6>
+        <p class="text-secondary text-center">{{ "c9" | translate }}</p>
       </div>
     </div>
     <div class="row mb-4">
       <div class="col-12 col-sm-12 col-md-4 text-center">
         <img src="../assets/images/music_bell.svg" data-aos="zoom-in" class="mb-3">
         <h5 class="font-weight-normal text-center text-dark">{{ "h9" | translate  }}</h5>
-        <h6 class="text-secondary text-center">{{ "c10" | translate }}</h6>
+        <p class="text-secondary text-center">{{ "c10" | translate }}</p>
       </div>
       <div class="col-12 col-sm-12 col-md-4 text-center">
         <img src="../assets/images/weather_libra.svg" data-aos="zoom-in" class="mb-3">
         <h5 class="font-weight-normal text-center text-dark">{{ "h10" | translate  }}</h5>
-        <h6 class="text-secondary  text-center">{{ "c11" | translate }}</h6>
+        <p class="text-secondary  text-center">{{ "c11" | translate }}</p>
       </div>
       <div class="col-12 col-sm-12 col-md-4 text-center">
         <img src="../assets/images/ecommerce_graph_increase.svg" data-aos="zoom-in" class="mb-3">
         <h5 class="font-weight-normal text-center text-dark">{{ "h11" | translate }}</h5>
-        <h6 class="text-secondary text-center">{{ "c12" | translate }}</h6>
+        <p class="text-secondary text-center">{{ "c12" | translate }}</p>
       </div>
     </div>
   </div>
@@ -74,14 +74,13 @@
 <section class="py-5">
   <div class="container">
     <h2 class="text-center font-weight-normal text-dark">{{ 'h12' | translate }}</h2>
-    <h5 class="text-center text-secondary mb-5">{{ "c13" | translate  }}</h5>
+    <h4 class="text-center text-secondary mb-5">{{ "c13" | translate  }}</h4>
     <div class="separator small mx-auto"></div>
     <div class="row">
       <div class="col-12 col-sm-12 col-md-6 order-2 order-sm-2 order-md-1">
         <h2>{{ "h13" | translate  }}</h2>
         <p>{{"c14"  | translate }}</p>
-        <p>{{ "c15"  | translate  }}</p>
-        <h6>{{ "c16"  | translate  }}</h6>
+        <p>{{ "c15"  | translate  }}<strong>{{ "c16"  | translate  }}</strong></p>
       </div>
       <div class="col-12 col-sm-12 col-md-6 text-center order-1 order-sm-1 order-md-2">
         <img src="../assets/images/Features1_350.png" class="mw-100" data-aos="fade-up" >
@@ -115,10 +114,23 @@
 <section>
   <div class="position-relative signup-form">
     <div class="container py-5">
-      <h2 class="font-weight-bold text-center text-white">{{ "h16"  | translate }}</h2>
-      <h4 class="text-center text-white pb-3">{{ "c22" | translate }}</h4>
-      <h4 class="text-center text-white font-weight-light">{{ "c23" | translate }}</h4>
-      <form>
+      <h2 class="font-weight-bold text-center text-white" style="text-align: center;
+      margin-bottom: 1%;
+      color: #ffffff !important;
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 36px;">{{ "h16"  | translate }}</h2>
+      <h4 class="text-center text-white pb-3" style="    text-align: center;
+      margin-bottom: 6%;
+      font-weight: 600;
+      color: #ffffff;
+      font-family: Montserrat;
+      font-size: 20px;">{{ "c22" | translate }}</h4>
+      <p class="text-center text-white font-weight-light" style="text-align: center;
+      color: #ffffff;
+      font-family: Montserrat;
+      font-size: 20px;">{{ "c23" | translate }}</p>
+      <form class="mt-5">
         <div class="row mb-3">
           <div class="col-12 col-sm-12 col-md-1"></div>
           <div class="input-group input-group-lg col-12 col-sm-12 col-md-10">
@@ -128,7 +140,7 @@
         </div>
         <div class="row">
           <div class="col-12 text-center">
-            <button type="button" class="btn rounded-pill btn-color text-uppercase">{{  'b2'  | translate }}</button>
+            <button type="button" class="btn btn-lg rounded-pill btn-color text-uppercase">{{  'b2'  | translate }}</button>
           </div>
         </div>
       </form>
