@@ -15,8 +15,12 @@
 	top: 6%;
 	left: 3%;
 }
-
-
+@media (max-width: 767px)
+{
+	.logo{
+		display: none;
+	}
+}
 .btn-color{
 	background-color: rgb(69, 43, 134);
 	border-color: rgb(69, 43, 134);
