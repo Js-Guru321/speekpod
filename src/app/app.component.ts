@@ -11,7 +11,8 @@ AOS.init();
 })
 export class AppComponent {
   title = 'speekpod';
-  
+  lang = 'en';
+
   constructor(private translateService: TranslateService){
     this.translateService.setDefaultLang('en');
     // this.translateService.use(this.translateService.getBrowserLang());
@@ -19,5 +20,6 @@ export class AppComponent {
 
   setLang(lang: string){
     this.translateService.use(lang);
+    this.lang = lang;
   }
 }
